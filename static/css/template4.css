@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation menu styles */
+.navbar {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hero header styles */
+.hero {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* About section styles */
+.about {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Services section styles */
+.services {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Education section styles */
+.education {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.education p {
+    font-size: 1.1rem;
+}
+
+/* Skills section styles */
+.skills {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Portfolio section styles */
+.portfolio {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.contact p {
+    font-size: 1.1rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+

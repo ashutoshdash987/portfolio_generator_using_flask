@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/css/template4.css')}}">
+    <!-- Add Bootstrap CSS link here -->
+</head>
+<body>
+
+    <!-- Hero Header -->
+    <header class="hero">
+        <h1>{{firstname}} {{lastname}}</h1>
+        <p>{{location}} | {{designation}}</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>{{about}}</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Work</h2>
+        <ul>
+            <li>{{company}}</li>
+            <li>{{work}}</li>
+            <!-- Add more services -->
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <h2>Education</h2>
+        <p>{{college}} | {{education}}</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>{{skill1}}</li>
+            <li>{{skill2}}</li>
+            <li>{{skill3}}</li>
+            <li>{{skill4}}</li>
+            <li>{{skill5}}</li>
+            <!-- Add more skills -->
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: {{mail}}</p>
+        <p>call : {{phone}}</p>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 {{firstname}}</p>
+    </footer>
+</body>
+</html>

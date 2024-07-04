@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/css/template5.css')}}">
+    <!-- Add Bootstrap CSS link here -->
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <!-- Hero Header -->
+    <header class="hero">
+        <div class="container">
+            <h1>{{firstname}} {{lastname}}</h1>
+            <p>{{location}} | {{designation}}</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>{{about}}</p>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>{{college}} | {{education}} </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-item">
+                <span>{{skill1}}</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span>{{skill2}}</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span>{{skill3}}</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span>{{skill4}}</span>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: {{mail}}</p>
+        <p>call : {{phone}}</p>
+    </section>
