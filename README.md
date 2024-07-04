@@ -22,6 +22,7 @@ Welcome to the **Online Portfolio Maker**! This web application, built with Flas
     
 ## Usage
 
+1. Click 'Try Now' on the Home page
 1. **Choose a Template:** Start by selecting one of the six available templates.
 2. **Enter Your Details:** Fill in your personal and professional information.
-3. **Generate Your Portfolio:** Once all details are filled, a professional portfolio webpage will be generated.
+3. **Generate Your Portfolio:** Once all the details are filled correctly, a professional portfolio webpage will be generated.
