@@ -14,11 +14,11 @@ body {
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: #355e78;
+    color: #e6deb8;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #e8491d 5px solid;
 }
 
 header h1 {
@@ -36,11 +36,21 @@ header p {
 
 section {
     padding: 20px 0;
-    border-bottom: 1px solid #e8491d;
+    /* border-bottom: 1px solid #e8491d; */
+    width: 50%;
+    margin-left: 25%;
 }
 
+section:nth-child(even) {
+    background-color: rgb(230, 224, 224);
+}
+#about{
+    margin-top: 2%;
+}
+
+
 h2 {
-    color: #35424a;
+    color: #355e78;
     text-align: center;
     text-transform: uppercase;
     margin: 0;
@@ -50,11 +60,6 @@ h2 {
 p, ul {
     text-align: center;
     font-size: 1.1em;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 ul li {
@@ -72,4 +77,12 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+@media only screen and (max-width:767px) {
+    section{
+        margin-left: 0;
+        width: 100%;
+    }
+    
 }
