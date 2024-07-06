@@ -49,9 +49,9 @@ def form():
             return render_template("template1.html",firstname=firstname,lastname=lastname,designation=designation,location=location,company=company,work=work,education=education,skill1=skill1,skill2=skill2,skill3=skill3,skill4=skill4,about=about,college=college,phone=phone,mail=mail)
 
         elif template == 'template2':
-            return render_template("template2.html",firstname=firstname,lastname=lastname,designation=designation,location=location,company=company,work=work,education=education,skill1=skill1,skill2=skill2,skill3=skill3,skill4=skill4,about=about,college=college)
+            return render_template("template2.html",firstname=firstname,lastname=lastname,designation=designation,location=location,company=company,work=work,education=education,skill1=skill1,skill2=skill2,skill3=skill3,skill4=skill4,about=about,college=college,phone=phone,mail=mail)
         elif template == 'template3':
-            return render_template("template3.html",firstname=firstname,lastname=lastname,designation=designation,location=location,company=company,work=work,education=education,skill1=skill1,skill2=skill2,skill3=skill3,skill4=skill4,about=about,college=college)
+            return render_template("template3.html",firstname=firstname,lastname=lastname,designation=designation,location=location,company=company,work=work,education=education,skill1=skill1,skill2=skill2,skill3=skill3,skill4=skill4,about=about,college=college,phone=phone,mail=mail)
         elif template == 'template4':
             return render_template("template4.html",firstname=firstname,lastname=lastname,designation=designation,location=location,company=company,work=work,education=education,skill1=skill1,skill2=skill2,skill3=skill3,skill4=skill4,about=about,college=college,phone=phone,mail=mail)
         elif template == 'template5':
@@ -63,5 +63,5 @@ def form():
 
 @app.route("/test")
 def test():
-    return render_template("template2.html")
+    return render_template("template3.html")
 app.run(debug=True)
