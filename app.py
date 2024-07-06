@@ -63,5 +63,5 @@ def form():
 
 @app.route("/test")
 def test():
-    return render_template("template1.html")
+    return render_template("template2.html")
 app.run(debug=True)
