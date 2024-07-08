@@ -4,58 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="{{url_for('static',filename='/css/template3.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='/css/template6.css')}}">
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="header-content">
+        <div class="sidebar">
+            <h2>About Me</h2>
+            <p>{{about}}</p>
+            <h2 class="n">Skills</h2>
+            <ul>
+                <li>{{skill1}}</li>
+                <li>{{skill2}}</li>
+                <li>{{skill3}}</li>
+                <li>{{skill4}}</li>
+            </ul>
+            <h2 class="n">Work Experience</h2>
+            <p>{{company}} - {{work}}</p>
+            <h2 class="n">Contact</h2>
+            <p>Mail : {{mail}}, Phone : {{phone}}</p>
+        </div>
+
+        <div class="main-content">
+            <div class="info-box">
+                <h1>I'm</h1>
                 <h1>{{firstname}} {{lastname}}</h1>
-                <p>{{designation}}</p>
-                <p>{{location}}</p>
+                <p>I'm from {{location}}</p>
+                <p>I'm a {{designation}}</p>
             </div>
-        </header>
-
-        <main>
-            <section class="left-section">
-                <div class="section-content">
-                    <h2>About Me</h2>
-                    <p>{{about}}</p>
-                    
-                    <h2>Skills</h2>
-                    <ul class="skills-list">
-                        <li>{{skill1}}</li>
-                        <li>{{skill1}}</li>
-                        <li>{{skill1}}</li>
-                        <li>{{skill1}}</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="right-section">
-                <div class="section-content">
-                    <h2>Work Experience</h2>
-                    <div class="work-experience">
-                        <h3>{{company}}</h3>
-                        <p>{{work}}</p>
-                    </div>
-
-                    <h2>Education</h2>
-                    <p>{{college}}</p>
-                    <p>{{education}}</p>
-
-                    <h2>Contact Details</h2>
-                    <ul class="contact-list">
-                        <li>Email: {{mail}}</li>
-                        <li>Phone: {{phone}}</li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <p>&copy; 2024 {{firstname}}. All rights reserved.</p>
-        </footer>
+        </div>
     </div>
 </body>
 </html>
